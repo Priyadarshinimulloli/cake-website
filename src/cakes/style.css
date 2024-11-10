@@ -1,0 +1,409 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color:#3e2723;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: cursive;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffb6c1;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#navi {
+    margin-left: auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.Tag{
+    color: #3e2723;
+   
+}
+
+.home {
+    text-align: center;
+    font-size:36px;
+}
+
+.banner {
+    display: flex;
+    gap: 25px;
+    padding: 20px;
+    background-color: #ff6f61;
+    justify-content: center;
+}
+
+.banner img {
+    width: 250px;
+    height: 220px;
+    border-radius: 10px;
+    transition: transform 0.5s ease, box-shadow 0.2s ease;
+}
+
+.banner img:hover {
+    transform: scale(1.09);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.best-sellers {
+    padding: 40px;
+    text-align: center;
+    background-color: #fffacd;
+}
+
+
+
+.best-sellers h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.cake-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.cake-item {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    border: 2px solid #f4a460;
+}
+
+.cake-item:hover {
+    transform: translateY(-10px);
+}
+
+.cake-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #FF6F61; 
+}
+
+.cake-item h3 {
+    font-size: 24px;
+    margin: 15px 0;
+    color: #333;
+}
+
+.cake-item p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d9534f;
+}
+
+.cake-item .rating {
+    font-size: 18px;
+    color: #888;
+}
+
+.cake-item .star {
+    color: gold;
+    margin-left: 5px;
+}
+
+.cake-item button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.cake-item button:hover {
+    background-color: #c9302c;
+}
+
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.categories {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 50px 0;
+    padding: 0;
+}
+
+#card li{
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+
+#cat1, #cat2, #cat3 {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #ff7f50;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    width: 220px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    list-style: none; 
+}
+
+
+#abt {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+#abt h2 {
+    font-size: 2.5em;
+    color: #4b3f72;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.introduction {
+    background: linear-gradient(to right, #f1c40f, #e67e22);
+    color: #3e2723;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.introduction p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.mission-vision-content {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#abt li {
+    background: #4b3f72;
+    color: white;
+    margin: 0.5em 0;
+    padding: 1em;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+#abt li:hover {
+    background: #7d5fff;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+
+input[type="email"] {
+    padding: 0.5em;
+    border: 2px solid #4b3f72;
+    border-radius: 4px;
+    width: 80%;
+    margin-bottom: 1em;
+}
+
+button {
+    background: #e67e22;
+    color: white;
+    border: none;
+    padding: 0.75em 2em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #d35400;
+}
+
+
+
+body.details {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 10px;
+
+}
+
+
+.cake1, .cake2, .cake3 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    margin-bottom: 20px; 
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    list-style: none;     
+}
+ .cake4, .cake5, .cake6{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    margin-bottom: 20px;  
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.cake1 img, .cake2 img, .cake3 img {
+    border-radius: 5px;
+    display: inline;
+}
+ .cake4 img, .cake5 img, .cake6 img{
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    display: inline;
+}
+
+.cake1 p, .cake2 p, .cake3 p, .cake4 p, .cake5 p, .cake6 p {
+    margin: 8px 0;
+    color: #333;
+}
+
+.star {
+    color: #ffcc00;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .cake-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+ 
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-info {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .footer-info p {
+    margin: 5px 0;
+  }
+  
+  .footer-socials a {
+    color: #FFD700; 
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-socials a:hover {
+    color: #FF6F61; 
+  }
+  
+ 
+  
